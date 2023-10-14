@@ -45,7 +45,7 @@
         fn {
             bindings = <
 &kp F1  &kp F2          &kp F3           &kp F4        &kp F5                &kp F6                &tog 4                                                                   &mo 4   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &kp LEFT_BRACE  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_BRACE       &trans                                                                   &none   &trans  &trans  &trans  &trans   &trans   &trans
+&trans  &kp LEFT_BRACE  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_BRACE       &kp EQUAL                                                                &none   &trans  &trans  &trans  &trans   &trans   &trans
 &trans  &kp COLON       &kp DOLLAR       &kp PERCENT   &kp CARET             &kp PLUS              &kp GRAVE             &trans                 &trans      &trans  &trans  &none   &trans  &trans  &trans  &trans   &trans   &trans
 &trans  &kp TILDE       &kp EXCLAMATION  &kp AT_SIGN   &kp PIPE              &kp NON_US_BACKSLASH                                               &trans      &trans                  &trans  &trans  &trans  &trans   &trans   &trans
 &trans  &trans          &trans           &trans        &trans                                      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans      &trans  &trans  &trans          &trans  &trans  &trans   &trans   &trans
