@@ -21,6 +21,22 @@
         };
     };
 
+    macros {
+        L_WS: L_WS {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp LEFT_CONTROL &kp LEFT_ARROW>;
+            label = "L_WS";
+        };
+
+        R_WS: R_WS {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp RIGHT_CONTROL &kp RIGHT_ARROW>;
+            label = "R_WS";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
