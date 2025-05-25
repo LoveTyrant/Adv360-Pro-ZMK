@@ -47,7 +47,7 @@
 &kp TAB    &kp Q           &kp W           &kp E               &kp R             &kp T   &none                                                    &none      &kp Y   &kp U              &kp I                &kp O            &kp P               &kp BSLH
 &kp ESC    &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L  &hm RIGHT_GUI SEMI  &kp SQT
 &kp LSHFT  &kp Z           &kp X           &kp C               &kp V             &kp B                        &tog 4        &kp PG_UP                        &kp N   &kp M              &kp COMMA            &kp DOT          &kp FSLH            &kp RSHFT
-&mo 2      &kp GRAVE       &kp CAPS        &kp LEFT            &kp RIGHT                 &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &mo 1              &mo 2                &kp LBKT         &kp RBKT            &mo 2
+&mo 2      &kp GRAVE       &kp CAPS        &kp LEFT            &mo 6                     &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &mo 1              &mo 2                &kp LBKT         &kp RBKT            &mo 2
             >;
         };
 
@@ -107,6 +107,18 @@
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
+        };
+
+        NAV {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &L_WS   &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &R_WS   &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+
+            label = "NAV";
         };
 
         colemak-dh {
