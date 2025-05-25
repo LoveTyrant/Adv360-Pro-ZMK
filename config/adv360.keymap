@@ -22,13 +22,6 @@
     };
 
     macros {
-        L_WS: L_WS {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_ALT &kp LEFT_CONTROL &kp LEFT_ARROW>;
-            label = "L_WS";
-        };
-
         R_WS: R_WS {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -111,11 +104,11 @@
 
         NAV {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans        &trans          &trans          &trans        &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &kp K_REDO    &kp K_PASTE     &kp K_COPY      &kp K_CUT     &kp K_UNDO       &trans
-&trans  &trans  &trans  &trans  &L_WS   &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp CAPSLOCK  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
-&trans  &trans  &trans  &trans  &R_WS   &trans                  &trans      &trans                  &kp INSERT    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                &trans          &trans          &trans        &trans           &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans                                      &trans  &trans        &trans          &trans          &trans        &trans           &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans                                      &trans  &kp K_REDO    &kp K_PASTE     &kp K_COPY      &kp K_CUT     &kp K_UNDO       &trans
+&trans  &trans  &trans  &trans  &kp LA(LC(LEFT_ARROW))  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp CAPSLOCK  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans
+&trans  &trans  &trans  &trans  &kp RA(RC(RIGHT))       &trans                  &trans      &trans                  &kp INSERT    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &trans
+&trans  &trans  &trans  &trans  &trans                          &trans  &trans  &trans      &trans  &trans  &trans                &trans          &trans          &trans        &trans           &trans
             >;
 
             label = "NAV";
