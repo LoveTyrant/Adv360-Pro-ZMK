@@ -126,11 +126,11 @@
 
         Gaming2 {
             bindings = <
-&kp F1   &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7                                             &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp F8   &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8                                             &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp F9   &kp N1  &kp W   &kp N2  &trans  &trans  &trans     &trans      &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp F11  &kp A   &kp S   &kp D   &trans  &trans                         &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&kp F12  &trans  &trans  &trans  &trans          &kp SPACE  &kp ESCAPE  &tog 8      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&kp F1   &kp F2  &kp F3  &kp F4  &kp F5   &kp F6  &kp F7                                             &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp F8   &kp N3  &kp N4  &kp N5  &kp N6   &kp N7  &kp N8                                             &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp F9   &kp N1  &kp W   &kp N2  &trans   &trans  &trans     &trans      &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp F11  &kp A   &kp S   &kp D   &trans   &trans                         &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&kp F12  &trans  &trans  &trans  &kp TAB          &kp SPACE  &kp ESCAPE  &tog 8      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "Gaming2";
